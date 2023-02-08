@@ -18,8 +18,8 @@ jobs:
 
       - name: Run script
         run: |
-          chmod +x ./plant_the_grass.sh
-          ./plant_the_grass.sh
+          chmod +x ./grass.sh
+          ./grass.sh
         shell: bash
 
       - name: Commit And push
