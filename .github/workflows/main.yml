@@ -1,4 +1,4 @@
-name: Grass Farmer
+name: Farmer
 
 on:
   schedule:
@@ -7,7 +7,7 @@ on:
     
 
 jobs:
-  plant_the_grass:
+  plant_grass:
     runs-on: ubuntu-latest
     steps:
       - name: Set up
